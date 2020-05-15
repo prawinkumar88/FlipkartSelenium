@@ -11,7 +11,7 @@ Feature: As a flipkart user I should be able to login and logout with valid cred
     Then I should see warning as enter valid cred "Please enter valid Email ID/Mobile number"
     
  
- 
+  @loginSmoke
   Scenario: Login into the application with valid credentials
   	Given I am on the Login page URL "https://www.flipkart.com/"
     Then I should see Sign In Page
@@ -20,6 +20,7 @@ Feature: As a flipkart user I should be able to login and logout with valid cred
     And I click on login button
     Then I should see user "Praveen"
     
+   @login 
    Scenario: Login into the application with invalid username credentials
   	Given I am on the Login page URL "https://www.flipkart.com/"
     Then I should see Sign In Page
