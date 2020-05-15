@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1589525404160" stop="1589525482746" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a flipkart user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1589525404215" stop="1589525423640" status="passed">
+            <name>Login into the application with empty username credentials</name>
+            <title>Login into the application with empty username credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1589525413977" stop="1589525419112" status="passed">
+                    <name>Given I am on the Login page URL "https://www.flipkart.com/"</name>
+                    <title>Given I am on the Login page URL "https://www.flipkart.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525419114" stop="1589525419182" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525419183" stop="1589525419265" status="passed">
+                    <name>When I enter username as ""</name>
+                    <title>When I enter username as ""</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525419265" stop="1589525419532" status="passed">
+                    <name>And I enter password as "Innovate@123"</name>
+                    <title>And I enter password as "Innovate@123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525419532" stop="1589525419774" status="passed">
+                    <name>And I click on login button</name>
+                    <title>And I click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525419775" stop="1589525421889" status="passed">
+                    <name>Then I should see warning as enter valid cred "Please enter valid Email ID/Mobile number"</name>
+                    <title>Then I should see warning as enter valid cred "Please enter valid Email ID/Mobile number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="d484e48c-3d85-4d63-871b-52f9d345bd5a-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with empty username credentials"/>
+                <label name="feature" value="As a flipkart user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="Innovate-Asus"/>
+                <label name="thread" value="6236@Innovate-Asus.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1589525423654" stop="1589525439684" status="passed">
+            <name>Login into the application with valid credentials</name>
+            <title>Login into the application with valid credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1589525429514" stop="1589525434416" status="passed">
+                    <name>Given I am on the Login page URL "https://www.flipkart.com/"</name>
+                    <title>Given I am on the Login page URL "https://www.flipkart.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525434417" stop="1589525434466" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525434466" stop="1589525434618" status="passed">
+                    <name>When I enter username as "9944402019"</name>
+                    <title>When I enter username as "9944402019"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525434618" stop="1589525434796" status="passed">
+                    <name>And I enter password as "Innovate@123"</name>
+                    <title>And I enter password as "Innovate@123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525434797" stop="1589525434940" status="passed">
+                    <name>And I click on login button</name>
+                    <title>And I click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525434940" stop="1589525437046" status="passed">
+                    <name>Then I should see user "Praveen"</name>
+                    <title>Then I should see user "Praveen"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment1" source="ea2e00af-5c39-4182-9093-cad7e77c2986-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with valid credentials"/>
+                <label name="feature" value="As a flipkart user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="Innovate-Asus"/>
+                <label name="thread" value="6236@Innovate-Asus.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1589525439688" stop="1589525454039" status="passed">
+            <name>Login into the application with invalid username credentials</name>
+            <title>Login into the application with invalid username credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1589525445408" stop="1589525449992" status="passed">
+                    <name>Given I am on the Login page URL "https://www.flipkart.com/"</name>
+                    <title>Given I am on the Login page URL "https://www.flipkart.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525449992" stop="1589525450038" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525450039" stop="1589525450143" status="passed">
+                    <name>When I enter username as "994"</name>
+                    <title>When I enter username as "994"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525450144" stop="1589525450294" status="passed">
+                    <name>And I enter password as "Innovate@123"</name>
+                    <title>And I enter password as "Innovate@123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525450294" stop="1589525450513" status="passed">
+                    <name>And I click on login button</name>
+                    <title>And I click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525450513" stop="1589525452547" status="passed">
+                    <name>Then I should see warning as "Please enter valid Email ID/Mobile number"</name>
+                    <title>Then I should see warning as "Please enter valid Email ID/Mobile number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment2" source="2b974817-0fd5-47a4-a0e3-22d419ed3153-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with invalid username credentials"/>
+                <label name="feature" value="As a flipkart user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="Innovate-Asus"/>
+                <label name="thread" value="6236@Innovate-Asus.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1589525454043" stop="1589525468667" status="passed">
+            <name>Login into the application with wrong password credentials</name>
+            <title>Login into the application with wrong password credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1589525459893" stop="1589525464879" status="passed">
+                    <name>Given I am on the Login page URL "https://www.flipkart.com/"</name>
+                    <title>Given I am on the Login page URL "https://www.flipkart.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525464880" stop="1589525464933" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525464934" stop="1589525465086" status="passed">
+                    <name>When I enter username as "9944402019"</name>
+                    <title>When I enter username as "9944402019"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525465087" stop="1589525465197" status="passed">
+                    <name>And I enter password as "sgddj"</name>
+                    <title>And I enter password as "sgddj"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525465197" stop="1589525465375" status="passed">
+                    <name>And I click on login button</name>
+                    <title>And I click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525465375" stop="1589525467444" status="passed">
+                    <name>Then I should see warning as "Your username or password is incorrect"</name>
+                    <title>Then I should see warning as "Your username or password is incorrect"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment3" source="5a7a60cc-a9a3-4046-a904-b27254abfc8b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with wrong password credentials"/>
+                <label name="feature" value="As a flipkart user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="Innovate-Asus"/>
+                <label name="thread" value="6236@Innovate-Asus.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1589525468670" stop="1589525482735" status="passed">
+            <name>Login into the application with empty password credentials</name>
+            <title>Login into the application with empty password credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1589525474299" stop="1589525478736" status="passed">
+                    <name>Given I am on the Login page URL "https://www.flipkart.com/"</name>
+                    <title>Given I am on the Login page URL "https://www.flipkart.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525478737" stop="1589525478793" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525478793" stop="1589525478952" status="passed">
+                    <name>When I enter username as "9944402019"</name>
+                    <title>When I enter username as "9944402019"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525478952" stop="1589525479025" status="passed">
+                    <name>And I enter password as ""</name>
+                    <title>And I enter password as ""</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525479025" stop="1589525479234" status="passed">
+                    <name>And I click on login button</name>
+                    <title>And I click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1589525479235" stop="1589525481352" status="passed">
+                    <name>Then I should see password warning as "Please enter Password"</name>
+                    <title>Then I should see password warning as "Please enter Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment4" source="286e79d6-9333-4b87-b9aa-6287c4833495-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with empty password credentials"/>
+                <label name="feature" value="As a flipkart user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="Innovate-Asus"/>
+                <label name="thread" value="6236@Innovate-Asus.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a flipkart user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
